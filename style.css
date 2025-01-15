@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(120deg, #2fb951 40%, #a4e063); /* Gradient design */
+    background-attachment: fixed; /* Keeps background fixed on scroll */
+    background-size: cover; /* Ensures the gradient covers the whole page */
+    color: #161414;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white for modern look */
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Elevated shadow for a clean design */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #2fb951;
+    margin-bottom: 10px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 3px solid #2fb951;
+}
+
+header p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+header a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #2fb951;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 1em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    vertical-align: middle;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+}
+
+footer a img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+}
+
